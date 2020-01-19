@@ -1,0 +1,16 @@
+[
+{
+  "modid": "flattilesmod",
+  "name": "Flat Tiles Mod",
+  "description": "Flat ground tiles (like carpet) from lot´s of materials",
+  "version": "1.0",
+  "mcversion": "1.15.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Drachenbauer32"],
+  "credits": "Drachenbauer32",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

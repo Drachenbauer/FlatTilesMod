@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[27,)" #mandatory (27 is current forge version)
+credits="Drachenbauer" #optional
+authors="Drachenbauer" #optional
+
+[[mods]] #mandatory
+modId="flattilesmod" #mandatory
+version="0.1.0" #mandatory
+displayName="Flat Tiles Mod" #mandatory
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Flat ground tiles (like carpet) from lot´s of materials
+'''
+
+[[dependencies.flattilesmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[30,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+    
+# Here's another dependency
+[[dependencies.flattilessmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.1]"
+    ordering="NONE"
+	side="BOTH"
