@@ -45,8 +45,8 @@ public class FlatTiles
     private void setup(final FMLCommonSetupEvent event)
     {
         List<Item> items = Arrays.asList(FlatTilesItems.blue_concrete_tile_block,
-                                         FlatTilesItems.black_concrete_tile_block,
-                                         FlatTilesItems.brown_concrete_tile_block);
+                                         FlatTilesItems.brown_concrete_tile_block,
+                                         FlatTilesItems.black_concrete_tile_block);
         
         itemSorter = Ordering.explicit(items).onResultOf(ItemStack::getItem);
     }

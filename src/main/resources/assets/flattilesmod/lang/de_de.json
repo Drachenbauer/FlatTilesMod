@@ -1,0 +1,9 @@
+{
+    //ItemGroup name
+    "itemGroup.FlatTiles": "Flache Bodenplatten",
+	
+	//Block names
+    "block.flattilessmod.black_concrete_tile_block": "Schwarze Beton-Bodenplatte",
+    "block.flattilessmod.blue_concrete_tile_block": "Blaue Beton-Bodenplatte",
+    "block.flattilessmod.brown_concrete_tile_block": "Braune Beton-Bodenplatte"
+}
