@@ -22,6 +22,6 @@ public class FlatTilesItemGroup extends ItemGroup
     @Override
     public void fill(NonNullList<ItemStack> itemStacks)
     {
-        //itemStacks.sort(FlatTiles.itemSorter);
+        itemStacks.sort(FlatTiles.itemSorter);
     }
 }

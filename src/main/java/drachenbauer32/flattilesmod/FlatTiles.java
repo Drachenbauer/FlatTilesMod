@@ -44,11 +44,11 @@ public class FlatTiles
     
     private void setup(final FMLCommonSetupEvent event)
     {
-        /*List<Item> items = Arrays.asList(FlatTilesItems.blue_concrete_tile_block,
+        List<Item> items = Arrays.asList(FlatTilesItems.blue_concrete_tile_block,
                                          FlatTilesItems.black_concrete_tile_block,
                                          FlatTilesItems.brown_concrete_tile_block);
         
-        itemSorter = Ordering.explicit(items).onResultOf(ItemStack::getItem);*/
+        itemSorter = Ordering.explicit(items).onResultOf(ItemStack::getItem);
     }
     
     private void clientRegistries(final FMLClientSetupEvent event)
@@ -59,20 +59,6 @@ public class FlatTiles
     public static class RegistryEvents
     {
         public static final ItemGroup FLAT_TILES = new FlatTilesItemGroup();
-        
-        public static void registerItems(final RegistryEvent.Register<Item> event)
-        {
-            
-            event.getRegistry().registerAll(FlatTilesItems.black_concrete_tile_block = new BlockItem(FlatTilesBlocks.black_concrete_tile_block,
-                                            new Item.Properties().defaultMaxDamage(0).group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON).
-                                            setNoRepair()).setRegistryName(FlatTilesBlocks.black_concrete_tile_block.getRegistryName()),
-                                            FlatTilesItems.blue_concrete_tile_block = new BlockItem(FlatTilesBlocks.blue_concrete_tile_block,
-                                            new Item.Properties().defaultMaxDamage(0).group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON).
-                                            setNoRepair()).setRegistryName(FlatTilesBlocks.blue_concrete_tile_block.getRegistryName()),
-                                            FlatTilesItems.brown_concrete_tile_block = new BlockItem(FlatTilesBlocks.brown_concrete_tile_block,
-                                            new Item.Properties().defaultMaxDamage(0).group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON).
-                                            setNoRepair()).setRegistryName(FlatTilesBlocks.brown_concrete_tile_block.getRegistryName()));
-        }
         
         @SubscribeEvent
         public static void registerBlocks(final RegistryEvent.Register<Block> event)
@@ -87,5 +73,20 @@ public class FlatTiles
                                             Block.Properties.create(Material.ROCK, MaterialColor.BROWN).sound(SoundType.STONE).
                                             lightValue(0).hardnessAndResistance(1.8f, 9f).variableOpacity()));
         }
+        
+        @SubscribeEvent
+        public static void registerItems(final RegistryEvent.Register<Item> event)
+        {
+            event.getRegistry().registerAll(FlatTilesItems.black_concrete_tile_block = new BlockItem(FlatTilesBlocks.black_concrete_tile_block,
+                                            new Item.Properties().defaultMaxDamage(0).group(FLAT_TILES).maxStackSize(64).rarity(Rarity.COMMON).
+                                            setNoRepair()).setRegistryName(FlatTilesBlocks.black_concrete_tile_block.getRegistryName()),
+                                            FlatTilesItems.blue_concrete_tile_block = new BlockItem(FlatTilesBlocks.blue_concrete_tile_block,
+                                            new Item.Properties().defaultMaxDamage(0).group(FLAT_TILES).maxStackSize(64).rarity(Rarity.COMMON).
+                                            setNoRepair()).setRegistryName(FlatTilesBlocks.blue_concrete_tile_block.getRegistryName()),
+                                            FlatTilesItems.brown_concrete_tile_block = new BlockItem(FlatTilesBlocks.brown_concrete_tile_block,
+                                            new Item.Properties().defaultMaxDamage(0).group(FLAT_TILES).maxStackSize(64).rarity(Rarity.COMMON).
+                                            setNoRepair()).setRegistryName(FlatTilesBlocks.brown_concrete_tile_block.getRegistryName()));
+        }
+        
     }
 }
