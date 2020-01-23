@@ -1,8 +1,12 @@
-{   "parent": "block/thin_block",
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
+{
+    "parent": "block/thin_block",
+    "elements":
+    [
+        {
+            "from": [ 0, 0, 0 ],
             "to": [ 16, 1, 16 ],
-            "faces": {
+            "faces":
+            {
                 "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#material", "cullface": "down" },
                 "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#material" },
                 "north": { "uv": [ 0, 15, 16, 16 ], "texture": "#material", "cullface": "north" },

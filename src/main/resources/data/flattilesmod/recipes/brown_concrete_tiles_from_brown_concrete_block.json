@@ -4,6 +4,6 @@
     {
         "item": "minecraft:brown_concrete"
     },
-    "result": "flattilesmod:brown_concrete_tile_block",
+    "result": "flattilesmod:brown_concrete_tile",
     "count": 16
-  }
+}

@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/yellow_concrete_tile"
+        }
+    }
+}

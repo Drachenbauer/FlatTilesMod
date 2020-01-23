@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:green_concrete"
+    },
+    "result": "flattilesmod:green_concrete_tile",
+    "count": 16
+}
