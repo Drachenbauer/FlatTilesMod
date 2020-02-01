@@ -66,6 +66,7 @@ public class FlatTiles
     
     private void clientRegistries(final FMLClientSetupEvent event)
     {
+        
     }
     
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
@@ -178,6 +179,5 @@ public class FlatTiles
                                             new Item.Properties().defaultMaxDamage(0).group(FLAT_TILES).maxStackSize(64).rarity(Rarity.COMMON).
                                             setNoRepair()).setRegistryName("yellow_concrete_tile"));
         }
-        
     }
 }

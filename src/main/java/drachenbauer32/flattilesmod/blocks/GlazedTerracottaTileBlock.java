@@ -12,7 +12,6 @@ import net.minecraft.util.Rotation;
 
 public class GlazedTerracottaTileBlock extends DyableTileBlock
 {
-    
     public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     
     public GlazedTerracottaTileBlock(String name, DyeColor p_i48290_1_, Properties properties)

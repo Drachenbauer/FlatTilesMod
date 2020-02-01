@@ -2,7 +2,6 @@
     "parent": "flattilesmod:block/tile",
     "textures":
     {
-        "particle": "block/pink_concrete",
         "material": "block/pink_concrete"
     }
 }

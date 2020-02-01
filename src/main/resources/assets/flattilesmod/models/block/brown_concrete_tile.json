@@ -2,7 +2,6 @@
     "parent": "flattilesmod:block/tile",
     "textures":
     {
-        "particle": "block/brown_concrete",
         "material": "block/brown_concrete"
     }
 }
