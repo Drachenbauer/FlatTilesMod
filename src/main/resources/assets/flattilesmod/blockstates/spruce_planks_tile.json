@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/spruce_planks_tile"
+        }
+    }
+}

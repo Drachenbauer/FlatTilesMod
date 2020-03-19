@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:quartz_block"
+    },
+    "result": "flattilesmod:quartz_tile",
+    "count": 16
+}

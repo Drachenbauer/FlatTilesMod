@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/birch_planks_tile"
+        }
+    }
+}

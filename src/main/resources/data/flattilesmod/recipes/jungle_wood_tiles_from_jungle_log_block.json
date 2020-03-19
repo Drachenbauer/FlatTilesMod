@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:jungle_log"
+    },
+    "result": "flattilesmod:jungle_wood_tile",
+    "count": 16
+}

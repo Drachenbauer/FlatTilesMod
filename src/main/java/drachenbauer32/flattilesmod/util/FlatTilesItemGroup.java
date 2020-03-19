@@ -16,7 +16,7 @@ public class FlatTilesItemGroup extends ItemGroup
     @Override
     public ItemStack createIcon()
     {
-        return new ItemStack(FlatTilesItems.yellow_concrete_tile);
+        return new ItemStack(FlatTilesItems.birch_planks_tile);
     }
     
     @Override

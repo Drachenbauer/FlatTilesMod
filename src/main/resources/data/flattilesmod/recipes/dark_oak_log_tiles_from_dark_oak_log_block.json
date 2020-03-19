@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:dark_oak_log"
+    },
+    "result": "flattilesmod:dark_oak_log_tile",
+    "count": 16
+}

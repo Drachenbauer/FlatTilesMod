@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:diorite"
+    },
+    "result": "flattilesmod:diorite_tile",
+    "count": 16
+}

@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/mossy_stone_brick_tile"
+        }
+    }
+}

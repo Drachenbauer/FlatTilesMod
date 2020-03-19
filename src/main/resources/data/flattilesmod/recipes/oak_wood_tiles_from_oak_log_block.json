@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:oak_log"
+    },
+    "result": "flattilesmod:oak_wood_tile",
+    "count": 16
+}

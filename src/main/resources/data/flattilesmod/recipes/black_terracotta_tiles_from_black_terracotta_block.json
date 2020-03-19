@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:black_terracotta"
+    },
+    "result": "flattilesmod:black_terracotta_tile",
+    "count": 16
+}

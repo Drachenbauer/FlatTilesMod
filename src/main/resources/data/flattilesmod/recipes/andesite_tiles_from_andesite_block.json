@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:andesite"
+    },
+    "result": "flattilesmod:andesite_tile",
+    "count": 16
+}

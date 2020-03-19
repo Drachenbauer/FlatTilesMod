@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:polished_granite"
+    },
+    "result": "flattilesmod:polished_granite_tile",
+    "count": 16
+}

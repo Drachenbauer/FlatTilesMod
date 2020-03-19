@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=north": { "model": "flattilesmod:block/yellow_glazed_terracotta_tile" },
+        "facing=east":  { "model": "flattilesmod:block/yellow_glazed_terracotta_tile", "y": 90 },
+        "facing=south": { "model": "flattilesmod:block/yellow_glazed_terracotta_tile", "y": 180 },
+        "facing=west":  { "model": "flattilesmod:block/yellow_glazed_terracotta_tile", "y": 270 }
+    }
+}

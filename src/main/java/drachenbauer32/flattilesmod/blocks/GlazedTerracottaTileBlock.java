@@ -14,9 +14,9 @@ public class GlazedTerracottaTileBlock extends DyableTileBlock
 {
     public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     
-    public GlazedTerracottaTileBlock(String name, DyeColor p_i48290_1_, Properties properties)
+    public GlazedTerracottaTileBlock(String name, DyeColor color, Properties properties)
     {
-        super(name, p_i48290_1_, properties);
+        super(name, color, properties);
         this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
     }
     

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:purpur_block"
+    },
+    "result": "flattilesmod:purpur_tile",
+    "count": 16
+}

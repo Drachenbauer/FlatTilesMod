@@ -5,16 +5,16 @@ import net.minecraft.item.DyeColor;
 
 public class DyableTileBlock extends TileBlock
 {
-    private final DyeColor color;
+    private final DyeColor COLOR;
     
-    public DyableTileBlock(String name, DyeColor p_i48290_1_, Block.Properties properties)
+    public DyableTileBlock(String name, DyeColor color, Block.Properties properties)
     {
         super(name, properties);
-        this.color = p_i48290_1_;
+        this.COLOR = color;
     }
     
     public DyeColor getColor()
     {
-        return this.color;
+        return this.COLOR;
     }
 }

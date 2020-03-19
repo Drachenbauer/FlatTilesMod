@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/stripped_oak_log_tile"
+        }
+    }
+}

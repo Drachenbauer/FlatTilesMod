@@ -1,0 +1,7 @@
+{
+    "parent": "flattilesmod:block/tile",
+    "textures":
+    {
+        "material": "block/light_gray_terracotta"
+    }
+}

@@ -3,7 +3,7 @@
     {
         "":
         {
-            "model": "flattilesmod:block/red_concrete_tile"
+            "model": "flattilesmod:block/red_terracotta_tile"
         }
     }
 }

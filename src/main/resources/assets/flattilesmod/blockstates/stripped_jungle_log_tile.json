@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/stripped_jungle_log_tile"
+        }
+    }
+}

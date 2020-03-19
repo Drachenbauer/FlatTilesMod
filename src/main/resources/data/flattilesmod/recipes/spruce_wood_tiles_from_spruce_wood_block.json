@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:spruce_wood"
+    },
+    "result": "flattilesmod:spruce_wood_tile",
+    "count": 16
+}

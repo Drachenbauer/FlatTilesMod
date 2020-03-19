@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:cyan_glazed_terracotta"
+    },
+    "result": "flattilesmod:cyan_glazed_terracotta_tile",
+    "count": 16
+}

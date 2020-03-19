@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:stripped_acacia_wood"
+    },
+    "result": "flattilesmod:stripped_acacia_wood_tile",
+    "count": 16
+}

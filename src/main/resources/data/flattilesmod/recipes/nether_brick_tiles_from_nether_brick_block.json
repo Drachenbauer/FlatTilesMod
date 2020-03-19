@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:nether_bricks"
+    },
+    "result": "flattilesmod:nether_brick_tile",
+    "count": 16
+}

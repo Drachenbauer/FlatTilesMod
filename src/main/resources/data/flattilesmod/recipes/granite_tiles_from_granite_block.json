@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:granite"
+    },
+    "result": "flattilesmod:granite_tile",
+    "count": 16
+}

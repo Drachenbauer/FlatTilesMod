@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:smooth_sandstone"
+    },
+    "result": "flattilesmod:smooth_sandstone_tile",
+    "count": 16
+}

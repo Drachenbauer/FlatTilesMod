@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:stripped_jungle_wood"
+    },
+    "result": "flattilesmod:stripped_jungle_wood_tile",
+    "count": 16
+}

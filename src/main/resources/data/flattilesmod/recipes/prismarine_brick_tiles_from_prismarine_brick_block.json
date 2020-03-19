@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient":
+    {
+        "item": "minecraft:prismarine_bricks"
+    },
+    "result": "flattilesmod:prismarine_brick_tile",
+    "count": 16
+}

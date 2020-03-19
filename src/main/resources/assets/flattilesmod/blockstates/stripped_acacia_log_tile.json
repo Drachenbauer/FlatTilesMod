@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "":
+        {
+            "model": "flattilesmod:block/stripped_acacia_log_tile"
+        }
+    }
+}

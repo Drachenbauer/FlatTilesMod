@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=north": { "model": "flattilesmod:block/jungle_wood_tile" },
+        "facing=east":  { "model": "flattilesmod:block/jungle_wood_tile", "y": 90 },
+        "facing=south": { "model": "flattilesmod:block/jungle_wood_tile", "y": 180 },
+        "facing=west":  { "model": "flattilesmod:block/jungle_wood_tile", "y": 270 }
+    }
+}
