@@ -1,111 +1,122 @@
 package drachenbauer32.flattilesmod.init;
 
+import drachenbauer32.flattilesmod.blocks.RotateableTileBlock;
+import drachenbauer32.flattilesmod.blocks.TileBlock;
+import drachenbauer32.flattilesmod.util.Reference;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 
 public class FlatTilesBlocks
 {
-    public static Block acacia_log_tile,
-                        birch_log_tile,
-                        dark_oak_log_tile,
-                        jungle_log_tile,
-                        oak_log_tile,
-                        spruce_log_tile,
-                        acacia_wood_tile,
-                        birch_wood_tile,
-                        dark_oak_wood_tile,
-                        jungle_wood_tile,
-                        oak_wood_tile,
-                        spruce_wood_tile,
-                        stripped_acacia_log_tile,
-                        stripped_birch_log_tile,
-                        stripped_dark_oak_log_tile,
-                        stripped_jungle_log_tile,
-                        stripped_oak_log_tile,
-                        stripped_spruce_log_tile,
-                        stripped_acacia_wood_tile,
-                        stripped_birch_wood_tile,
-                        stripped_dark_oak_wood_tile,
-                        stripped_jungle_wood_tile,
-                        stripped_oak_wood_tile,
-                        stripped_spruce_wood_tile,
-                        acacia_planks_tile,
-                        birch_planks_tile,
-                        dark_oak_planks_tile,
-                        jungle_planks_tile,
-                        oak_planks_tile,
-                        spruce_planks_tile,
-                        
-                        andesite_tile,
-                        brick_tile,
-                        cobblestone_tile,
-                        dark_prismarine_tile,
-                        diorite_tile,
-                        end_stone_brick_tile,
-                        granite_tile,
-                        mossy_cobblestone_tile,
-                        mossy_stone_brick_tile,
-                        nether_brick_tile,
-                        polished_andesite_tile,
-                        polished_diorite_tile,
-                        polished_granite_tile,
-                        prismarine_brick_tile,
-                        prismarine_tile,
-                        purpur_tile,
-                        quartz_tile,
-                        red_nether_brick_tile,
-                        smooth_quartz_tile,
-                        smooth_red_sandstone_tile,
-                        smooth_sandstone_tile,
-                        smooth_stone_tile,
-                        stone_brick_tile,
-                        stone_tile,
-                        
-                        black_concrete_tile,
-                        blue_concrete_tile,
-                        brown_concrete_tile,
-                        cyan_concrete_tile,
-                        gray_concrete_tile,
-                        green_concrete_tile,
-                        light_blue_concrete_tile,
-                        light_gray_concrete_tile,
-                        lime_concrete_tile,
-                        magenta_concrete_tile,
-                        orange_concrete_tile,
-                        pink_concrete_tile,
-                        purple_concrete_tile,
-                        red_concrete_tile,
-                        white_concrete_tile,
-                        yellow_concrete_tile,
-                        black_terracotta_tile,
-                        blue_terracotta_tile,
-                        brown_terracotta_tile,
-                        cyan_terracotta_tile,
-                        gray_terracotta_tile,
-                        green_terracotta_tile,
-                        light_blue_terracotta_tile,
-                        light_gray_terracotta_tile,
-                        lime_terracotta_tile,
-                        magenta_terracotta_tile,
-                        orange_terracotta_tile,
-                        pink_terracotta_tile,
-                        purple_terracotta_tile,
-                        red_terracotta_tile,
-                        white_terracotta_tile,
-                        yellow_terracotta_tile,
-                        black_glazed_terracotta_tile,
-                        blue_glazed_terracotta_tile,
-                        brown_glazed_terracotta_tile,
-                        cyan_glazed_terracotta_tile,
-                        gray_glazed_terracotta_tile,
-                        green_glazed_terracotta_tile,
-                        light_blue_glazed_terracotta_tile,
-                         light_gray_glazed_terracotta_tile,
-                        lime_glazed_terracotta_tile,
-                        magenta_glazed_terracotta_tile,
-                        orange_glazed_terracotta_tile,
-                        pink_glazed_terracotta_tile,
-                        purple_glazed_terracotta_tile,
-                        red_glazed_terracotta_tile,
-                        white_glazed_terracotta_tile,
-                        yellow_glazed_terracotta_tile;
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Reference.MOD_ID);
+    
+    public static final RegistryObject<Block> ACACIA_LOG_TILE = BLOCKS.register("acacia_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.ACACIA_LOG)));
+    public static final RegistryObject<Block> BIRCH_LOG_TILE = BLOCKS.register("birch_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.BIRCH_LOG)));
+    public static final RegistryObject<Block> DARK_OAK_LOG_TILE = BLOCKS.register("dark_oak_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.DARK_OAK_LOG)));
+    public static final RegistryObject<Block> JUNGLE_LOG_TILE = BLOCKS.register("jungle_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.JUNGLE_LOG)));
+    public static final RegistryObject<Block> OAK_LOG_TILE = BLOCKS.register("oak_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> SPRUCE_LOG_TILE = BLOCKS.register("spruce_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.SPRUCE_LOG)));
+    public static final RegistryObject<Block> ACACIA_WOOD_TILE = BLOCKS.register("acacia_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.ACACIA_WOOD)));
+    public static final RegistryObject<Block> BIRCH_WOOD_TILE = BLOCKS.register("birch_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.BIRCH_WOOD)));
+    public static final RegistryObject<Block> DARK_OAK_WOOD_TILE = BLOCKS.register("dark_oak_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.DARK_OAK_WOOD)));
+    public static final RegistryObject<Block> JUNGLE_WOOD_TILE = BLOCKS.register("jungle_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.JUNGLE_WOOD)));
+    public static final RegistryObject<Block> OAK_WOOD_TILE = BLOCKS.register("oak_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.OAK_WOOD)));
+    public static final RegistryObject<Block> SPRUCE_WOOD_TILE = BLOCKS.register("spruce_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.SPRUCE_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_LOG_TILE = BLOCKS.register("stripped_acacia_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_ACACIA_LOG)));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_LOG_TILE = BLOCKS.register("stripped_birch_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_BIRCH_LOG)));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_TILE = BLOCKS.register("stripped_dark_oak_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_DARK_OAK_LOG)));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_LOG_TILE = BLOCKS.register("stripped_jungle_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_JUNGLE_LOG)));
+    public static final RegistryObject<Block> STRIPPED_OAK_LOG_TILE = BLOCKS.register("stripped_oak_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_OAK_LOG)));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG_TILE = BLOCKS.register("stripped_spruce_log_tile", () -> new TileBlock(Block.Properties.from(Blocks.STRIPPED_SPRUCE_LOG)));
+    public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_TILE = BLOCKS.register("stripped_acacia_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_ACACIA_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_TILE = BLOCKS.register("stripped_birch_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_BIRCH_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_DARK_OAK_WOOD_TILE = BLOCKS.register("stripped_dark_oak_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_DARK_OAK_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_TILE = BLOCKS.register("stripped_jungle_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_JUNGLE_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_OAK_WOOD_TILE = BLOCKS.register("stripped_oak_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_OAK_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_TILE = BLOCKS.register("stripped_spruce_wood_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.STRIPPED_SPRUCE_WOOD)));
+    public static final RegistryObject<Block> ACACIA_PLANKS_TILE = BLOCKS.register("acacia_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.ACACIA_PLANKS)));
+    public static final RegistryObject<Block> BIRCH_PLANKS_TILE = BLOCKS.register("birch_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.BIRCH_PLANKS)));
+    public static final RegistryObject<Block> DARK_OAK_PLANKS_TILE = BLOCKS.register("dark_oak_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.DARK_OAK_PLANKS)));
+    public static final RegistryObject<Block> JUNGLE_PLANKS_TILE = BLOCKS.register("jungle_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.JUNGLE_PLANKS)));
+    public static final RegistryObject<Block> OAK_PLANKS_TILE = BLOCKS.register("oak_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> SPRUCE_PLANKS_TILE = BLOCKS.register("spruce_planks_tile", () -> new TileBlock(Block.Properties.from(Blocks.SPRUCE_PLANKS)));
+    
+    public static final RegistryObject<Block> ANDESITE_TILE = BLOCKS.register("andesite_tile", () -> new TileBlock(Block.Properties.from(Blocks.ANDESITE)));
+    public static final RegistryObject<Block> BRICK_TILE = BLOCKS.register("brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.BRICKS)));
+    public static final RegistryObject<Block> COBBLESTONE_TILE = BLOCKS.register("cobblestone_tile", () -> new TileBlock(Block.Properties.from(Blocks.COBBLESTONE)));
+    public static final RegistryObject<Block> DARK_PRISMARINE_TILE = BLOCKS.register("dark_prismarine_tile", () -> new TileBlock(Block.Properties.from(Blocks.DARK_PRISMARINE)));
+    public static final RegistryObject<Block> DIORITE_TILE = BLOCKS.register("diorite_tile", () -> new TileBlock(Block.Properties.from(Blocks.DIORITE)));
+    public static final RegistryObject<Block> END_STONE_BRICK_TILE = BLOCKS.register("end_stone_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.END_STONE_BRICKS)));
+    public static final RegistryObject<Block> GRANITE_TILE = BLOCKS.register("granite_tile", () -> new TileBlock(Block.Properties.from(Blocks.GRANITE)));
+    public static final RegistryObject<Block> MOSSY_COBBLESTONE_TILE = BLOCKS.register("mossy_cobblestone_tile", () -> new TileBlock(Block.Properties.from(Blocks.MOSSY_COBBLESTONE)));
+    public static final RegistryObject<Block> MOSSY_STONE_BRICK_TILE = BLOCKS.register("mossy_stone_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.MOSSY_STONE_BRICKS)));
+    public static final RegistryObject<Block> NETHER_BRICK_TILE = BLOCKS.register("nether_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.NETHER_BRICKS)));
+    public static final RegistryObject<Block> POLISHED_ANDESITE_TILE = BLOCKS.register("polished_andesite_tile", () -> new TileBlock(Block.Properties.from(Blocks.POLISHED_ANDESITE)));
+    public static final RegistryObject<Block> POLISHED_DIORITE_TILE = BLOCKS.register("polished_diorite_tile", () -> new TileBlock(Block.Properties.from(Blocks.POLISHED_DIORITE)));
+    public static final RegistryObject<Block> POLISHED_GRANITE_TILE = BLOCKS.register("polished_granite_tile", () -> new TileBlock(Block.Properties.from(Blocks.POLISHED_GRANITE)));
+    public static final RegistryObject<Block> PRISMARINE_BRICK_TILE = BLOCKS.register("prismarine_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.PRISMARINE_BRICKS)));
+    public static final RegistryObject<Block> PRISMARINE_TILE = BLOCKS.register("prismarine_tile", () -> new TileBlock(Block.Properties.from(Blocks.PRISMARINE)));
+    public static final RegistryObject<Block> PURPUR_TILE = BLOCKS.register("purpur_tile", () -> new TileBlock(Block.Properties.from(Blocks.PURPUR_BLOCK)));
+    public static final RegistryObject<Block> QUARTZ_TILE = BLOCKS.register("quartz_tile", () -> new TileBlock(Block.Properties.from(Blocks.QUARTZ_BLOCK)));
+    public static final RegistryObject<Block> RED_NETHER_BRICK_TILE = BLOCKS.register("red_nether_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.RED_NETHER_BRICKS)));
+    public static final RegistryObject<Block> SMOOTH_QUARTZ_TILE = BLOCKS.register("smooth_quartz_tile", () -> new TileBlock(Block.Properties.from(Blocks.SMOOTH_QUARTZ)));
+    public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_TILE = BLOCKS.register("smooth_red_sandstone_tile", () -> new TileBlock(Block.Properties.from(Blocks.SMOOTH_RED_SANDSTONE)));
+    public static final RegistryObject<Block> SMOOTH_SANDSTONE_TILE = BLOCKS.register("smooth_sandstone_tile", () -> new TileBlock(Block.Properties.from(Blocks.SMOOTH_SANDSTONE)));
+    public static final RegistryObject<Block> SMOOTH_STONE_TILE = BLOCKS.register("smooth_stone_tile", () -> new TileBlock(Block.Properties.from(Blocks.SMOOTH_STONE)));
+    public static final RegistryObject<Block> STONE_BRICK_TILE = BLOCKS.register("stone_brick_tile", () -> new TileBlock(Block.Properties.from(Blocks.STONE_BRICKS)));
+    public static final RegistryObject<Block> STONE_TILE = BLOCKS.register("stone_tile", () -> new TileBlock(Block.Properties.from(Blocks.STONE)));
+    
+    public static final RegistryObject<Block> BLACK_CONCRETE_TILE = BLOCKS.register("black_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.BLACK_CONCRETE)));
+    public static final RegistryObject<Block> BLUE_CONCRETE_TILE = BLOCKS.register("blue_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.BLUE_CONCRETE)));
+    public static final RegistryObject<Block> BROWN_CONCRETE_TILE = BLOCKS.register("brown_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.BROWN_CONCRETE)));
+    public static final RegistryObject<Block> CYAN_CONCRETE_TILE = BLOCKS.register("cyan_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.CYAN_CONCRETE)));
+    public static final RegistryObject<Block> GRAY_CONCRETE_TILE = BLOCKS.register("gray_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.GRAY_CONCRETE)));
+    public static final RegistryObject<Block> GREEN_CONCRETE_TILE = BLOCKS.register("green_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.GREEN_CONCRETE)));
+    public static final RegistryObject<Block> LIGHT_BLUE_CONCRETE_TILE = BLOCKS.register("light_blue_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIGHT_BLUE_CONCRETE)));
+    public static final RegistryObject<Block> LIGHT_GRAY_CONCRETE_TILE = BLOCKS.register("light_gray_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIGHT_GRAY_CONCRETE)));
+    public static final RegistryObject<Block> LIME_CONCRETE_TILE = BLOCKS.register("lime_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIME_CONCRETE)));
+    public static final RegistryObject<Block> MAGENTA_CONCRETE_TILE = BLOCKS.register("magenta_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.MAGENTA_CONCRETE)));
+    public static final RegistryObject<Block> ORANGE_CONCRETE_TILE = BLOCKS.register("orange_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.ORANGE_CONCRETE)));
+    public static final RegistryObject<Block> PINK_CONCRETE_TILE = BLOCKS.register("pink_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.PINK_CONCRETE)));
+    public static final RegistryObject<Block> PURPLE_CONCRETE_TILE = BLOCKS.register("purple_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.PURPLE_CONCRETE)));
+    public static final RegistryObject<Block> RED_CONCRETE_TILE = BLOCKS.register("red_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.RED_CONCRETE)));
+    public static final RegistryObject<Block> WHITE_CONCRETE_TILE = BLOCKS.register("white_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.WHITE_CONCRETE)));
+    public static final RegistryObject<Block> YELLOW_CONCRETE_TILE = BLOCKS.register("yellow_concrete_tile", () -> new TileBlock(Block.Properties.from(Blocks.YELLOW_CONCRETE)));
+    
+    public static final RegistryObject<Block> BLACK_TERRACOTTA_TILE = BLOCKS.register("black_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.BLACK_TERRACOTTA)));
+    public static final RegistryObject<Block> BLUE_TERRACOTTA_TILE = BLOCKS.register("blue_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.BLUE_TERRACOTTA)));
+    public static final RegistryObject<Block> BROWN_TERRACOTTA_TILE = BLOCKS.register("brown_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.BROWN_TERRACOTTA)));
+    public static final RegistryObject<Block> CYAN_TERRACOTTA_TILE = BLOCKS.register("cyan_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.CYAN_TERRACOTTA)));
+    public static final RegistryObject<Block> GRAY_TERRACOTTA_TILE = BLOCKS.register("gray_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.GRAY_TERRACOTTA)));
+    public static final RegistryObject<Block> GREEN_TERRACOTTA_TILE = BLOCKS.register("green_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.GREEN_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_BLUE_TERRACOTTA_TILE = BLOCKS.register("light_blue_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIGHT_BLUE_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_GRAY_TERRACOTTA_TILE = BLOCKS.register("light_gray_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIGHT_GRAY_TERRACOTTA)));
+    public static final RegistryObject<Block> LIME_TERRACOTTA_TILE = BLOCKS.register("lime_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.LIME_TERRACOTTA)));
+    public static final RegistryObject<Block> MAGENTA_TERRACOTTA_TILE = BLOCKS.register("magenta_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.MAGENTA_TERRACOTTA)));
+    public static final RegistryObject<Block> ORANGE_TERRACOTTA_TILE = BLOCKS.register("orange_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.ORANGE_TERRACOTTA)));
+    public static final RegistryObject<Block> PINK_TERRACOTTA_TILE = BLOCKS.register("pink_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.PINK_TERRACOTTA)));
+    public static final RegistryObject<Block> PURPLE_TERRACOTTA_TILE = BLOCKS.register("purple_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.PURPLE_TERRACOTTA)));
+    public static final RegistryObject<Block> RED_TERRACOTTA_TILE = BLOCKS.register("red_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.RED_TERRACOTTA)));
+    public static final RegistryObject<Block> WHITE_TERRACOTTA_TILE = BLOCKS.register("white_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.WHITE_TERRACOTTA)));
+    public static final RegistryObject<Block> YELLOW_TERRACOTTA_TILE = BLOCKS.register("yellow_terracotta_tile", () -> new TileBlock(Block.Properties.from(Blocks.YELLOW_TERRACOTTA)));
+    
+    public static final RegistryObject<Block> BLACK_GLAZED_TERRACOTTA_TILE = BLOCKS.register("black_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.BLACK_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> BLUE_GLAZED_TERRACOTTA_TILE = BLOCKS.register("blue_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.BLUE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> BROWN_GLAZED_TERRACOTTA_TILE = BLOCKS.register("brown_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.BROWN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> CYAN_GLAZED_TERRACOTTA_TILE = BLOCKS.register("cyan_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.CYAN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> GRAY_GLAZED_TERRACOTTA_TILE = BLOCKS.register("gray_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.GRAY_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> GREEN_GLAZED_TERRACOTTA_TILE = BLOCKS.register("green_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.GREEN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_BLUE_GLAZED_TERRACOTTA_TILE = BLOCKS.register("light_blue_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_GRAY_GLAZED_TERRACOTTA_TILE = BLOCKS.register("light_gray_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIME_GLAZED_TERRACOTTA_TILE = BLOCKS.register("lime_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.LIME_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> MAGENTA_GLAZED_TERRACOTTA_TILE = BLOCKS.register("magenta_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> ORANGE_GLAZED_TERRACOTTA_TILE = BLOCKS.register("orange_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.ORANGE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> PINK_GLAZED_TERRACOTTA_TILE = BLOCKS.register("pink_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.PINK_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> PURPLE_GLAZED_TERRACOTTA_TILE = BLOCKS.register("purple_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.PURPLE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> RED_GLAZED_TERRACOTTA_TILE = BLOCKS.register("red_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.RED_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> WHITE_GLAZED_TERRACOTTA_TILE = BLOCKS.register("white_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.WHITE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> YELLOW_GLAZED_TERRACOTTA_TILE = BLOCKS.register("yellow_glazed_terracotta_tile", () -> new RotateableTileBlock(Block.Properties.from(Blocks.YELLOW_GLAZED_TERRACOTTA)));
 }

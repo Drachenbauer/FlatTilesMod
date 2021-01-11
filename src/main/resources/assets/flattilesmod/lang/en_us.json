@@ -1,7 +1,7 @@
 
 {
     //ItemGroup name
-    "itemGroup.FlatTiles": "Flat Ground Tiles",
+    "itemGroup.flattiles": "Flat Ground Tiles",
     
     //Block names
     "block.flattilesmod.acacia_log_tile": "Acacia Log Ground Tile",
@@ -54,7 +54,7 @@
     "block.flattilesmod.quartz_tile": "Quartz Ground Tile",
     "block.flattilesmod.red_nether_brick_tile": "Red Nether Brick Ground Tile",
     "block.flattilesmod.smooth_quartz_tile": "Smooth Quartz Ground Tile",
-    "block.flattilesmod.smooth_red_sandstone_tile": "Smooth red Sandstone Ground Tile",
+    "block.flattilesmod.smooth_red_sandstone_tile": "Smooth Red Sandstone Ground Tile",
     "block.flattilesmod.smooth_sandstone_tile": "Smooth Sandstone Ground Tile",
     "block.flattilesmod.smooth_stone_tile": "Smooth Stone Ground Tile",
     "block.flattilesmod.stone_brick_tile": "Stone Brick Ground Tile",
@@ -76,6 +76,7 @@
     "block.flattilesmod.red_concrete_tile": "Red Concrete Ground Tile",
     "block.flattilesmod.white_concrete_tile": "White Concrete Ground Tile",
     "block.flattilesmod.yellow_concrete_tile": "Yellow Concrete Ground Tile",
+    
     "block.flattilesmod.black_terracotta_tile": "Black Terracotta Ground Tile",
     "block.flattilesmod.blue_terracotta_tile": "Blue Terracotta Ground Tile",
     "block.flattilesmod.brown_terracotta_tile": "Brown Terracotta Ground Tile",
@@ -92,20 +93,21 @@
     "block.flattilesmod.red_terracotta_tile": "Red Terracotta Ground Tile",
     "block.flattilesmod.white_terracotta_tile": "White Terracotta Ground Tile",
     "block.flattilesmod.yellow_terracotta_tile": "Yellow Terracotta Ground Tile",
-    "block.flattilesmod.black_glazed_terracotta_tile": "Black glazed Terracotta Ground Tile",
-    "block.flattilesmod.blue_glazed_terracotta_tile": "Blue glazed Terracotta Ground Tile",
-    "block.flattilesmod.brown_glazed_terracotta_tile": "Brown glazed Terracotta Ground Tile",
-    "block.flattilesmod.cyan_glazed_terracotta_tile": "Cyan glazed Terracotta Ground Tile",
-    "block.flattilesmod.gray_glazed_terracotta_tile": "Gray glazed Terracotta Ground Tile",
-    "block.flattilesmod.green_glazed_terracotta_tile": "Green glazed Terracotta Ground Tile",
-    "block.flattilesmod.light_blue_glazed_terracotta_tile": "Light Blue glazed Terracotta Ground Tile",
-    "block.flattilesmod.light_gray_glazed_terracotta_tile": "Light Gray glazed Terracotta Ground Tile",
-    "block.flattilesmod.lime_glazed_terracotta_tile": "Lime glazed Terracotta Ground Tile",
-    "block.flattilesmod.magenta_glazed_terracotta_tile": "Magenta glazed Terracotta Ground Tile",
-    "block.flattilesmod.orange_glazed_terracotta_tile": "Orange glazed Terracotta Ground Tile",
-    "block.flattilesmod.pink_glazed_terracotta_tile": "Pink glazed Terracotta Ground Tile",
-    "block.flattilesmod.purple_glazed_terracotta_tile": "Purple glazed Terracotta Ground Tile",
-    "block.flattilesmod.red_glazed_terracotta_tile": "Red glazed Terracotta Ground Tile",
-    "block.flattilesmod.white_glazed_terracotta_tile": "White glazed Terracotta Ground Tile",
-    "block.flattilesmod.yellow_glazed_terracotta_tile": "Yellow glazed Terracotta Ground Tile"
+    
+    "block.flattilesmod.black_glazed_terracotta_tile": "Black Glazed Terracotta Ground Tile",
+    "block.flattilesmod.blue_glazed_terracotta_tile": "Blue Glazed Terracotta Ground Tile",
+    "block.flattilesmod.brown_glazed_terracotta_tile": "Brown Glazed Terracotta Ground Tile",
+    "block.flattilesmod.cyan_glazed_terracotta_tile": "Cyan Glazed Terracotta Ground Tile",
+    "block.flattilesmod.gray_glazed_terracotta_tile": "Gray Glazed Terracotta Ground Tile",
+    "block.flattilesmod.green_glazed_terracotta_tile": "Green Glazed Terracotta Ground Tile",
+    "block.flattilesmod.light_blue_glazed_terracotta_tile": "Light Blue Glazed Terracotta Ground Tile",
+    "block.flattilesmod.light_gray_glazed_terracotta_tile": "Light Gray Glazed Terracotta Ground Tile",
+    "block.flattilesmod.lime_glazed_terracotta_tile": "Lime Glazed Terracotta Ground Tile",
+    "block.flattilesmod.magenta_glazed_terracotta_tile": "Magenta Glazed Terracotta Ground Tile",
+    "block.flattilesmod.orange_glazed_terracotta_tile": "Orange Glazed Terracotta Ground Tile",
+    "block.flattilesmod.pink_glazed_terracotta_tile": "Pink Glazed Terracotta Ground Tile",
+    "block.flattilesmod.purple_glazed_terracotta_tile": "Purple Glazed Terracotta Ground Tile",
+    "block.flattilesmod.red_glazed_terracotta_tile": "Red Glazed Terracotta Ground Tile",
+    "block.flattilesmod.white_glazed_terracotta_tile": "White Glazed Terracotta Ground Tile",
+    "block.flattilesmod.yellow_glazed_terracotta_tile": "Yellow Glazed Terracotta Ground Tile"
 }

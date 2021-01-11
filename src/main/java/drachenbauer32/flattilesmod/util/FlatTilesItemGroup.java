@@ -10,13 +10,13 @@ public class FlatTilesItemGroup extends ItemGroup
 {
     public FlatTilesItemGroup()
     {
-        super("FlatTiles");
+        super("flattiles");
     }
     
     @Override
     public ItemStack createIcon()
     {
-        return new ItemStack(FlatTilesItems.birch_planks_tile);
+        return new ItemStack(FlatTilesItems.BIRCH_PLANKS_TILE.get());
     }
     
     @Override

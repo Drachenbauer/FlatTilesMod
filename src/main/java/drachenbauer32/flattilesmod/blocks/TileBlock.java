@@ -1,6 +1,5 @@
 package drachenbauer32.flattilesmod.blocks;
 
-import drachenbauer32.flattilesmod.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -16,10 +15,9 @@ public class TileBlock extends Block
 {
     protected static final VoxelShape SHAPE = Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 1.0D, 16.0D);
     
-    public TileBlock(String name, Properties properties)
+    public TileBlock(Properties properties)
     {
         super(properties);
-        setRegistryName(Reference.MOD_ID, name);
     }
     
     public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context)

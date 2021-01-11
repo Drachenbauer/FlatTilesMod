@@ -20,7 +20,7 @@ Flat ground tiles (like carpet) from lotÂ´s of materials
     side="BOTH"
     
 # Here's another dependency
-[[dependencies.flattilessmod]]
+[[dependencies.flattilesmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

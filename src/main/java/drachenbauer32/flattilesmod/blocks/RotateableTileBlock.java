@@ -9,13 +9,13 @@ import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.Rotation;
 
-public class RotatebleWoodTileBlock extends TileBlock
+public class RotateableTileBlock extends TileBlock
 {
     public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
     
-    public RotatebleWoodTileBlock(String name, Properties properties)
+    public RotateableTileBlock(Properties properties)
     {
-        super(name, properties);
+        super(properties);
         this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
     }
     

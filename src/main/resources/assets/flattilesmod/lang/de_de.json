@@ -1,10 +1,9 @@
 {
     //ItemGroup name
-    "itemGroup.FlatTiles": "Flache Bodenplatten",
-	
-	//Block names
-	
-	"block.flattilesmod.acacia_log_tile": "Akazienstamm-Bodenplatte",
+    "itemGroup.flattiles": "Flache Bodenplatten",
+    
+    //Block names
+    "block.flattilesmod.acacia_log_tile": "Akazienstamm-Bodenplatte",
     "block.flattilesmod.birch_log_tile": "Birkenstamm-Bodenplatte",
     "block.flattilesmod.dark_oak_log_tile": "Schwarzeichenstamm-Bodenplatte",
     "block.flattilesmod.jungle_log_tile": "Tropenbaumstamm-Bodenplatte",
@@ -36,30 +35,30 @@
     "block.flattilesmod.spruce_planks_tile": "Fichtenbretter-Bodenplatte",
     
     "block.flattilesmod.andesite_tile": "Andesit-Bodenplatte",
-    "block.flattilesmod.brick_tile": "Ziegelstein-Bodenplatte",
+    "block.flattilesmod.brick_tile": "Ziegel-Bodenplatte",
     "block.flattilesmod.cobblestone_tile": "Bruchstein-Bodenplatte",
     "block.flattilesmod.dark_prismarine_tile": "Dunkle Prismarin-Bodenplatte",
     "block.flattilesmod.diorite_tile": "Diorit-Bodenplatte",
-    "block.flattilesmod.end_stone_brick_tile": "End-Stein-Bodenplatte",
+    "block.flattilesmod.end_stone_brick_tile": "Endsteinziegel-Bodenplatte",
     "block.flattilesmod.granite_tile": "Granit-Bodenplatte",
     "block.flattilesmod.mossy_cobblestone_tile": "Bemooste Bruchstein-Bodenplatte",
-    "block.flattilesmod.mossy_stone_brick_tile": "Bemooste Stein-Ziegel-Bodenplatte",
-    "block.flattilesmod.nether_brick_tile": "Nether-Ziegel-Bodenplatte",
+    "block.flattilesmod.mossy_stone_brick_tile": "Bemooste Steinziegel-Bodenplatte",
+    "block.flattilesmod.nether_brick_tile": "Netherziegel-Bodenplatte",
     "block.flattilesmod.polished_andesite_tile": "Polierte Andesit-Bodenplatte",
     "block.flattilesmod.polished_diorite_tile": "Polierte Diorit-Bodenplatte",
     "block.flattilesmod.polished_granite_tile": "Polierte Granit-Bodenplatte",
-    "block.flattilesmod.prismarine_brick_tile": "Prismarin-Ziegel-Bodenplatte",
+    "block.flattilesmod.prismarine_brick_tile": "Prismarinziegel-Bodenplatte",
     "block.flattilesmod.prismarine_tile": "Prismarin-Bodenplatte",
     "block.flattilesmod.purpur_tile": "Purpur-Bodenplatte",
     "block.flattilesmod.quartz_tile": "Quartz-Bodenplatte",
-    "block.flattilesmod.red_nether_brick_tile": "Rote Nether-Ziegel-Bodenplatte",
+    "block.flattilesmod.red_nether_brick_tile": "Rote Netherziegel-Bodenplatte",
     "block.flattilesmod.smooth_quartz_tile": "Glatte Quartz-Bodenplatte",
     "block.flattilesmod.smooth_red_sandstone_tile": "Glatte rote Sandstein-Bodenplatte",
     "block.flattilesmod.smooth_sandstone_tile": "Glatte Sandstein-Bodenplatte",
     "block.flattilesmod.smooth_stone_tile": "Glatte Stein-Bodenplatte",
-    "block.flattilesmod.stone_brick_tile": "Stein-Ziegel-Bodenplatte",
+    "block.flattilesmod.stone_brick_tile": "Steinziegel-Bodenplatte",
     "block.flattilesmod.stone_tile": "Stein-Bodenplatte",
-	
+    
     "block.flattilesmod.black_concrete_tile": "Schwarze Beton-Bodenplatte",
     "block.flattilesmod.blue_concrete_tile": "Blaue Beton-Bodenplatte",
     "block.flattilesmod.brown_concrete_tile": "Braune Beton-Bodenplatte",
@@ -76,6 +75,7 @@
     "block.flattilesmod.red_concrete_tile": "Rote Beton-Bodenplatte",
     "block.flattilesmod.white_concrete_tile": "Weiße Beton-Bodenplatte",
     "block.flattilesmod.yellow_concrete_tile": "Gelbe Beton-Bodenplatte",
+    
     "block.flattilesmod.black_terracotta_tile": "Schwarze Keramik-Bodenplatte",
     "block.flattilesmod.blue_terracotta_tile": "Blaue Keramik-Bodenplatte",
     "block.flattilesmod.brown_terracotta_tile": "Braune Keramik-Bodenplatte",
@@ -92,6 +92,7 @@
     "block.flattilesmod.red_terracotta_tile": "Rote Keramik-Bodenplatte",
     "block.flattilesmod.white_terracotta_tile": "Weiße Keramik-Bodenplatte",
     "block.flattilesmod.yellow_terracotta_tile": "Gelbe Keramik-Bodenplatte",
+    
     "block.flattilesmod.black_glazed_terracotta_tile": "Schwarze glasierte Keramik-Bodenplatte",
     "block.flattilesmod.blue_glazed_terracotta_tile": "Blaue glasierte Keramik-Bodenplatte",
     "block.flattilesmod.brown_glazed_terracotta_tile": "Braune glasierte Keramik-Bodenplatte",
